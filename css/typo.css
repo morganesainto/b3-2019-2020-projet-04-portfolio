@@ -1,0 +1,26 @@
+body{
+  font-family: sans-serif;
+}
+h1{
+  font-size: 3em;
+  margin-bottom: 1.5em;
+}
+h2{
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.jeux-feature-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.jeux-feature {
+  border: 1px solid #d2d2d2;
+  margin: 1em;
+  padding:1em;
+  flex-basis: 320px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
